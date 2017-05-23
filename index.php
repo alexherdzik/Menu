@@ -4,14 +4,14 @@
     <title>Menu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <style>
     body {
-         overflow-x: hidden;
-         padding-top: 69px;
+        overflow-x: hidden;
+        padding-top: 50px;
     }
 
 /* Toggle Styles */
@@ -136,31 +136,18 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-toggleable-xl fixed-top navbar-inverse bg-primary">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="assets/images/daemen_logo.png"></a>
-      <a href="#menu-toggle" id="menu-toggle"><span class="navbar-toggler-icon"></span></a>
-      <div class="collapse navbar-collapse pull-xs-right" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <!--<form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>-->
-      </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.png" height="20"></a>
+                <ul class="nav navbar-nav">
+                    <li><a href="#" id="menu-toggle"><i class="fa fa-bars"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-
+    
+    
     <div id="wrapper">
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
@@ -185,7 +172,7 @@
         <div id="page-content-wrapper">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xs-12">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare ullamcorper odio, nec placerat neque gravida in. Aliquam volutpat posuere sem at sagittis. Phasellus metus urna, molestie non purus a, consectetur commodo felis. Maecenas ultricies, odio a auctor fringilla, neque velit aliquam nisi, sit amet dictum nulla urna vel est. Proin at vehicula risus. Vivamus blandit nunc orci. Vestibulum porta finibus tristique.
 
 Etiam efficitur at urna id pulvinar. Nulla dictum imperdiet dolor. Proin sed feugiat erat, egestas porttitor sem. Sed convallis nibh auctor lobortis luctus. Nullam elit est, venenatis sit amet enim vitae, finibus pellentesque mi. Mauris ullamcorper nisl ac felis dapibus, vitae vestibulum augue facilisis. Donec vitae ante sit amet neque gravida convallis. Maecenas eros turpis, congue sit amet laoreet eu, ultricies vitae nisl. Nullam lacinia volutpat felis, vel aliquam dui bibendum in. Pellentesque at velit et erat dictum congue sed id turpis. Cras mattis augue sit amet luctus tincidunt. Nam vel cursus mauris. Mauris a velit in ante gravida consectetur.
