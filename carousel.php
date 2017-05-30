@@ -44,38 +44,38 @@ background: #333333;
                 <div class="carousel-inner">
                     
                 <div class="item active">
-                	<div class="row-fluid">
-                        <div class="thumbnail">
-                            <a href="#x"><img src="assets/images/tungnath.jpg" alt="Image" style="max-width:100%;" /></a>
-                            <div class="caption">
-                                <h3>Title</h3>
-                                <p>Info goes here...</p>
-                            </div>
+                	<div class="row">
+                        <div class="col-xs-12">
+                            <a href="#x"><img src="assets/images/tungnath.jpg" alt="Image" style="max-width: 100%;"></a>
+                        </div>
+                        <div class="col-xs-12" style="height: 178px; max-height: 178px;">
+                            <h3>Title</h3>
+                            <p>Info goes here...</p>
                         </div>
                 	</div><!--/row-fluid-->
                 </div><!--/item-->
                  
                 <div class="item">
-                	<div class="row-fluid">
-                    	<div class="thumbnail">
-                		    <a href="#x"><img src="assets/images/tungnath.jpg" alt="Image" style="max-width:100%;" /></a>
-                            <div class="caption">
-                                <h3>Title II</h3>
-                                <p>Info goes here...</p>
-                            </div>
+                	<div class="row">
+                    	<div class="col-xs-12">
+                		    <a href="#x"><img src="assets/images/tungnath.jpg" alt="Image" style="max-width: 100%;"></a>
                     	</div>
+                        <div class="col-xs-12" style="height: 178px; max-height: 178px;">
+                            <h3>Title II</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam justo massa, laoreet eu ultricies eget, tincidunt dictum dui. Sed ut ipsum turpis. Aliquam ullamcorper diam a purus auctor, id efficitur leo convallis. Nam commodo sit amet odio at volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam nec dictum est, quis maximus elit. Aliquam lobortis sapien sed mattis ultricies. Vivamus non neque in orci porta varius sed vel metus.</p>
+                        </div>
                 	</div><!--/row-fluid-->
                 </div><!--/item-->
                  
                 <div class="item">
-                	<div class="row-fluid">
-                    	<div class="thumbnail">
-                		    <a href="#x"><img src="assets/images/tungnath.jpg" alt="Image" style="max-width:100%;" /></a>
-                            <div class="caption">
+                	<div class="row">
+                    	<div class="col-xs-12">
+                		    <a href="#x"><img src="assets/images/tungnath.jpg" alt="Image" style="max-width: 100%;"></a>
+                    	</div>
+                        <div class="col-xs-12" style="height: 178px; max-height: 178px;">
                                 <h3>Title III</h3>
                                 <p>Info goes here...</p>
-                            </div>
-                    	</div>
+                        </div>
                 	</div><!--/row-fluid-->
                 </div><!--/item-->
                  
