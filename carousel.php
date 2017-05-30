@@ -31,9 +31,8 @@ background: #333333;
 <body>
 <div class="container">
 	<div class="row">
-		<div class="col-lg-4 col-lg-offset-4">
-    	    <div class="well"> 
-                <div id="myCarousel" class="carousel slide" data-interval="10000" data-ride="carousel">
+		<div class="col-lg-4 col-lg-offset-4"> 
+                <div id="myCarousel" class="carousel slide" data-ride="" data-interval="5000">
                  
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -46,28 +45,37 @@ background: #333333;
                     
                 <div class="item active">
                 	<div class="row-fluid">
-                	  <div class="col-xs-12"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>
-                	  <!--<div class="col-lg-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>
-                	  <div class="col-lg-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>
-                	  <div class="col-lg-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>-->
+                        <div class="thumbnail">
+                            <a href="#x"><img src="assets/images/tungnath.jpg" alt="Image" style="max-width:100%;" /></a>
+                            <div class="caption">
+                                <h3>Title</h3>
+                                <p>Info goes here...</p>
+                            </div>
+                        </div>
                 	</div><!--/row-fluid-->
                 </div><!--/item-->
                  
                 <div class="item">
                 	<div class="row-fluid">
-                		<div class="col-xs-12"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>
-                		<!--<div class="col-lg-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>
-                		<div class="col-lg-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>
-                		<div class="col-lg-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>-->
+                    	<div class="thumbnail">
+                		    <a href="#x"><img src="assets/images/tungnath.jpg" alt="Image" style="max-width:100%;" /></a>
+                            <div class="caption">
+                                <h3>Title II</h3>
+                                <p>Info goes here...</p>
+                            </div>
+                    	</div>
                 	</div><!--/row-fluid-->
                 </div><!--/item-->
                  
                 <div class="item">
                 	<div class="row-fluid">
-                		<div class="col-xs-12"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>
-                		<!--<div class="col-lg-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>
-                		<div class="col-lg-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>
-                		<div class="col-lg-3"><a href="#x" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;" /></a></div>-->
+                    	<div class="thumbnail">
+                		    <a href="#x"><img src="assets/images/tungnath.jpg" alt="Image" style="max-width:100%;" /></a>
+                            <div class="caption">
+                                <h3>Title III</h3>
+                                <p>Info goes here...</p>
+                            </div>
+                    	</div>
                 	</div><!--/row-fluid-->
                 </div><!--/item-->
                  
@@ -79,9 +87,7 @@ background: #333333;
                 <a class="right carousel-control" href="#myCarousel" data-slide="next">
                     <span class='glyphicon glyphicon-chevron-right'></span>
                 </a>
-                </div><!--/myCarousel-->
-                 
-            </div><!--/well-->   
+                </div><!--/myCarousel-->  
 		</div>
 	</div>
 </div>
