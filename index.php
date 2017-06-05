@@ -6,13 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" type="text/css">
+  <link rel="stylesheet" href="assets/css/jasny-bootstrap.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous" type="text/javascript">
-</script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous" type="text/javascript">
-</script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" type="text/javascript">
-</script>
   <style type="text/css">
 body {
         overflow-x: hidden;
@@ -196,13 +191,24 @@ body {
 </head>
 
 <body>
+  <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+      <a class="navmenu-brand" href="#">Placeholder</a>
+      <ul class="nav navmenu-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Academics</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Settings</a></li>
+      </ul>
+  </div>
+
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="btn btn-primary collapsed navbar-btn navbar-right" id="login-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">Log In</button>
 
         <div class="navbar-brand">
-          <a href="#" id="menu-toggle"><i class="fa fa-bars"></i></a><a href="#"><img src="assets/images/logo.png" height="30"></a>
+          <a href="#" id="menu-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body"><i class="fa fa-bars"></i></a>
+          <a href="#"><img src="assets/images/logo.png" height="30"></a>
         </div>
       </div>
 
@@ -224,7 +230,7 @@ body {
   <div id="wrapper">
     <!-- Sidebar -->
 
-    <div id="sidebar-wrapper">
+    <!--<div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li><a href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;Home</a></li>
         <li><a href="#"><i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>&nbsp;Academics</a></li>
@@ -252,11 +258,9 @@ body {
       </div>
     </div>
   </div><!-- End content -->
-  <script type="text/javascript">
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-  </script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous" type="text/javascript"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" type="text/javascript"></script>
+  <script src="assets/js/jasny-bootstrap.min.js"></script>
 </body>
 </html>
